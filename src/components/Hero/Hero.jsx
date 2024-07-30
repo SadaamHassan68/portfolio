@@ -15,10 +15,10 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <img
+      <img  className={styles.heroImg}
         src={skimage}
         alt=""
-        className={styles.heroImg}
+       
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
