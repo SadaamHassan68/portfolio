@@ -1,7 +1,5 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
-
 import skimage from './sk.png';
 
 export const Hero = () => {
@@ -19,7 +17,7 @@ export const Hero = () => {
       </div>
       <img
         src={skimage}
-        alt="Hero image of me"
+        alt=""
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />
