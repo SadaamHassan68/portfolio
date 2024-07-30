@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Hero.module.css";
-import { getImageUrl } from "../../utils";
+
 import skimage from './sk.png';
 
 export const Hero = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+
 import proj from './project.png';
 
 export const ProjectCard = ({

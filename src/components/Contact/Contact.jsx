@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
+
 import email from './emailIcon.png'
 
 import github from './githubIcon.png';
