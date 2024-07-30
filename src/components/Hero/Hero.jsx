@@ -17,7 +17,7 @@ export const Hero = () => {
       </div>
       <img
         src={skimage}
-        alt="this image"
+        alt=""
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />
