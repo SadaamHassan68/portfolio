@@ -1,7 +1,5 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
-
 import proj from './project.png';
 
 export const ProjectCard = ({
@@ -11,7 +9,7 @@ export const ProjectCard = ({
     <div className={styles.container}>
       <img
         src={proj}
-        alt={`Image of ${title}`}
+        alt={title}
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
